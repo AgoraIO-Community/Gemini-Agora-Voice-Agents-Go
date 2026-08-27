@@ -1,0 +1,7 @@
+**/node_modules
+client/.next
+**/.env.local
+*.env.local
+.git/
+docs/
+*.md
