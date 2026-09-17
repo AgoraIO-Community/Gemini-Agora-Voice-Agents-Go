@@ -55,7 +55,7 @@ make setup
 Write the Agora App ID and App Certificate from the selected Agora project:
 
 ```bash
-agora project env write server/.env.local --with-secrets
+agora project env write server/.env.local
 ```
 
 Open `server/.env.local` and add your Google API key:

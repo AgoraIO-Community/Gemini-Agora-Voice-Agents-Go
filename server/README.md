@@ -15,7 +15,7 @@ make setup
 Agora credentials:
 
 ```bash
-agora project env write server/.env.local --with-secrets
+agora project env write server/.env.local
 ```
 
 Run the app:
@@ -48,7 +48,7 @@ go run .
 Backend-only Agora CLI env write from `server/`:
 
 ```bash
-agora project env write .env.local --with-secrets
+agora project env write .env.local
 ```
 
 Required env vars:
@@ -84,7 +84,7 @@ To select a specific existing project before writing env values, run this from t
 
 ```bash
 agora project use <project-id-or-name>
-agora project env write server/.env.local --with-secrets
+agora project env write server/.env.local
 ```
 
 To create a new project instead of using your default project:
@@ -92,7 +92,7 @@ To create a new project instead of using your default project:
 ```bash
 agora project create my-first-voice-agent --feature rtc --feature convoai
 agora project use my-first-voice-agent
-agora project env write server/.env.local --with-secrets
+agora project env write server/.env.local
 ```
 
 ## API Endpoints
